@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&family=Open+Sans:wght@400;500;700;800&family=Poppins:wght@400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-size: cover;
+    font-family: 'Poppins' , 'sans-serif';
+    color:#fff;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.container > div
+{
+    flex:1;
+    padding: 0 20px;
+}
+h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+p{
+    font-size: 16px;
+    opacity: 0.8;
+}
+.box
+{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.box p
+{
+    margin: 0px;
+}
+.box-blue
+{
+    background-color: hsl(248, 32%, 49%);
+    padding: 20px;
+}
+.form-control
+{
+    margin-bottom: 30px;
+    position: relative;
+}
+.form-control small
+{
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: -24px;
+    opacity: 0;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+}
+input
+{
+    border-radius: 5px;
+    padding: 15px 25px;
+    width:100%;
+    display: block;
+    border: 2px solid hsl(248, 32%, 77%) ;
+    font-size: 14px;
+    font-weight: 500;
+}
+input:focus
+{
+    border:2px solid hsl(248, 32%, 49%);
+    outline: none;
+}
+button
+{
+    background-color: hsl(154, 59%, 51%);
+    width: 100%;
+    padding: 15px 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins' , 'sans-serif';
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    box-shadow: 0 2px hsl(154, 59%, 51%);
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+button:focus
+{
+    outline: none;
+}
+button:active
+{
+    border-bottom-width: 1px;
+    transform: translateY(2px);
+    
+}
+small
+{
+    color:#bbb ;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 15px;
+    display: block;
+}
+small a
+{
+    color:hsl(0, 100%, 74%) ;
+    text-decoration: none;
+}
